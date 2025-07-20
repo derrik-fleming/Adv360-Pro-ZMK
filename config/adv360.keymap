@@ -24,11 +24,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1       &kp N2          &kp N3              &kp N4            &kp N5  &tog 0                                                  &mo 0      &kp N6  &kp N7             &kp N8               &kp N9           &kp N0         &kp MINUS
-&kp TAB    &kp Q        &kp W           &kp F               &kp P             &kp B   &none                                                   &none      &kp J   &kp L              &kp U                &kp Y            &kp SEMICOLON  &kp BSLH
-&kp ESC    &hm LCTRL A  &hm LEFT_ALT R  &hm LEFT_COMMAND S  &hm LEFT_SHIFT T  &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI  &kp RCTRL  &none      &kp M   &hm RIGHT_SHIFT N  &hm RIGHT_COMMAND E  &hm RIGHT_ALT I  &hm RCTRL O    &kp SQT
-&kp LSHFT  &kp Z        &kp X           &kp C               &kp D             &kp V                        &to 2         &to 1                           &kp K   &kp H              &kp COMMA            &kp DOT          &kp FSLH       &kp RSHFT
-&mo 0      &kp GRAVE    &kp CAPS        &kp LEFT            &kp RIGHT                 &kp BSPC  &kp DEL    &to 1         &to 2     &kp ENTER  &kp SPACE          &kp UP             &kp DOWN             &kp LBKT         &kp RBKT       &mo 0
+&kp EQUAL  &kp N1       &kp N2          &kp N3              &kp N4            &kp N5  &bootloader                                                &bootloader  &kp N6  &kp N7             &kp N8               &kp N9           &kp N0         &kp MINUS
+&kp TAB    &kp Q        &kp W           &kp F               &kp P             &kp B   &none                                                      &none        &kp J   &kp L              &kp U                &kp Y            &kp SEMICOLON  &kp BSLH
+&kp ESC    &hm LCTRL A  &hm LEFT_ALT R  &hm LEFT_COMMAND S  &hm LEFT_SHIFT T  &kp G   &none        &kp LCTRL  &kp LALT      &kp LGUI  &kp RCTRL  &none        &kp M   &hm RIGHT_SHIFT N  &hm RIGHT_COMMAND E  &hm RIGHT_ALT I  &hm RCTRL O    &kp SQT
+&kp LSHFT  &kp Z        &kp X           &kp C               &kp D             &kp V                           &to 2         &to 1                             &kp K   &kp H              &kp COMMA            &kp DOT          &kp FSLH       &kp RSHFT
+&mo 0      &kp GRAVE    &kp CAPS        &kp LEFT            &kp RIGHT                 &kp BSPC     &kp DEL    &to 1         &to 2     &kp ENTER  &kp SPACE            &kp UP             &kp DOWN             &kp LBKT         &kp RBKT       &mo 0
             >;
         };
 
