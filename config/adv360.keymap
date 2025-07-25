@@ -62,11 +62,11 @@
 
         layer_1 {
             bindings = <
-&none      &none                &none            &none         &none           &none            &none                                  &none  &none          &none              &none             &none                 &none                  &none
-&kp TILDE  &kp LS(EXCLAMATION)  &kp LS(AT_SIGN)  &kp RS(HASH)  &kp LS(DOLLAR)  &kp LS(PERCENT)  &none                                  &none  &kp RS(CARET)  &kp LS(AMPERSAND)  &kp LS(ASTERISK)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
-&none      &none                &none            &kp LA(B)     &kp LA(T)       &none            &none  &none  &none      &none  &none  &none  &none          &kp UNDERSCORE     &kp PLUS          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
-&none      &none                &none            &none         &none           &none                          &none      &none                &none          &none              &none             &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none
-&none      &none                &none            &none         &none                            &none  &none  &none      &none  &mo 3  &none                 &none              &none             &none                 &none                  &none
+&none      &none             &none             &none             &none             &none             &none                                  &none  &none             &none           &none       &none                 &none                  &none
+&kp TILDE  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_2)  &kp LA(NUMBER_4)  &kp LS(NUMBER_5)  &none                                  &none  &kp LS(NUMBER_6)  &kp LS(N7)      &kp RS(N8)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
+&none      &none             &none             &kp LA(B)         &kp LA(T)         &none             &none  &none  &none      &none  &none  &none  &none             &kp UNDERSCORE  &kp PLUS    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
+&none      &none             &none             &none             &none             &none                           &none      &none                &none             &none           &none       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none
+&none      &none             &none             &none             &none                               &none  &none  &none      &none  &mo 3  &none                    &none           &none       &none                 &none                  &none
             >;
         };
 
