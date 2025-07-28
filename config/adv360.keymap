@@ -89,7 +89,7 @@
             label = "HASH";
         };
 
-        dollar: tilde {
+        dollar: dollar {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -100,10 +100,10 @@
                 <&macro_release>,
                 <&kp LEFT_SHIFT>;
 
-            label = "TILDE";
+            label = "DOLLAR";
         };
 
-        percent: dollar {
+        percent: percent {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -114,7 +114,7 @@
                 <&macro_release>,
                 <&kp LEFT_SHIFT>;
 
-            label = "DOLLAR";
+            label = "PERCENT";
         };
 
         caret: caret {
