@@ -290,7 +290,7 @@
             bindings = <
 &none      &none   &none  &none      &none      &none     &none                                  &none  &none   &none        &none   &none             &none              &none
 &kp TILDE  &excla  &at    &hash      &dollar    &percent  &none                                  &none  &caret  &amp         &aster  &openparen        &closeparen        &none
-&none      &none   &none  &kp LA(B)  &kp LA(T)  &none     &none  &none  &none      &none  &none  &none  &none   &underscore  &plus   &openbrace        &closebrace        &kp PIPE
+&none      &none   &none  &kp LA(B)  &kp LA(T)  &none     &none  &none  &none      &none  &none  &none  &none   &underscore  &plus   &openbrace        &closebrace        &pipe
 &none      &none   &none  &none      &none      &none                   &none      &none                &none   &none        &none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
 &none      &none   &none  &none      &none                &none  &none  &none      &none  &mo 3  &none          &none        &none   &none             &none              &none
             >;
